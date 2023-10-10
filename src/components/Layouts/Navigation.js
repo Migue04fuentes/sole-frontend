@@ -37,6 +37,11 @@ const Navigation = ({ user }) => {
                                 active={router.pathname === '/dashboard'}>
                                 Dashboard
                             </NavLink>
+                            <NavLink
+                                href="/authors"
+                                active={router.pathname === '/authors'}>
+                                Autores
+                            </NavLink>
                         </div>
                     </div>
 
@@ -65,7 +70,7 @@ const Navigation = ({ user }) => {
                             }>
                             {/* Authentication */}
                             <DropdownButton onClick={logout}>
-                                Logout
+                                Cerrar Sesión
                             </DropdownButton>
                         </Dropdown>
                     </div>

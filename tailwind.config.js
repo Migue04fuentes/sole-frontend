@@ -15,5 +15,6 @@ module.exports = {
             opacity: ['disabled'],
         },
     },
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [require('tw-elements/dist/plugin')],
+    //@tailwindcss/forms
 }
